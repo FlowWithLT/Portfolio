@@ -1,10 +1,16 @@
-/* Style général pour l'en-tête */
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+
 header {
     background-color: #2c3e50; /* Couleur de fond sombre */
     color: #ecf0f1; /* Couleur du texte clair */
     padding: 20px;
     text-align: center;
+    width: 100%;
 }
+
 
 /* Style pour le titre dans l'en-tête */
 header h1 {
@@ -17,7 +23,6 @@ header h1 {
 nav ul {
     list-style-type: none; /* Supprime les puces de la liste */
     padding: 0;
-    margin: 10px 0;
     display: flex; /* Affiche les liens en ligne */
     justify-content: center; /* Centre la navigation */
 }
@@ -49,6 +54,7 @@ footer {
     color: #ecf0f1; /* Couleur claire pour le texte */
     text-align: center;
     padding: 15px 0;
+    left: 0;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -73,3 +79,15 @@ footer a {
 footer a:hover {
     color: #3498db; /* Couleur bleue au survol */
 }
+
+
+
+
+
+
+
+
+
+
+
+
